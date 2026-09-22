@@ -19,7 +19,13 @@ When building AI applications (such as a Travel Planning AI App), developers typ
 ### Key Disadvantages of Direct Integration:
 
 1. **High Development Overhead:** Every API has a completely different authentication mechanism, request format, response format, and documentation. Developers have to write separate integration code for each service and learn all their individual quirks.
+
+<img width="1920" height="1080" alt="MCP Explained_ How AI Agents Connect to Tools _ Client, Server   Architecture 2-11 screenshot" src="https://github.com/user-attachments/assets/a1e5f3eb-c6bc-49e0-a1af-8833148118f0" />
+
 2. **Framework Lock-In:** If you build your agentic AI application using a specific framework (e.g., LangGraph) and later want to migrate or run the exact same logic using another framework (e.g., OpenAI Agents SDK, CrewAI, Agno), **you have to rewrite the entire application code** from scratch because each framework handles tool integration differently.
+<img width="1920" height="1080" alt="MCP Explained_ How AI Agents Connect to Tools _ Client, Server   Architecture 3-15 screenshot" src="https://github.com/user-attachments/assets/27384bf9-2eb3-40e1-97b4-9e5905e25bed" />
+
+
 
 ---
 
@@ -30,6 +36,8 @@ When building AI applications (such as a Travel Planning AI App), developers typ
 * Instead of your AI application writing custom code to integrate directly with multiple disparate APIs, your application connects to an **MCP Server**.
 * **Any Framework:** Whether your app is built in LangGraph, CrewAI, Agno, or OpenAI Agents SDK, it simply connects to the same MCP Server(s).
 * **Separation of Concerns:** The MCP Server handles all the heavy lifting (managing requests, formatting payloads, handling authentication, and talking to the underlying APIs). Your application only needs to write a minimal amount of code to establish a connection with the MCP Server.
+<img width="1920" height="1080" alt="MCP Explained_ How AI Agents Connect to Tools _ Client, Server   Architecture 5-29 screenshot" src="https://github.com/user-attachments/assets/f86627b5-03fe-472d-9f98-31a27974a330" />
+<img width="1920" height="1080" alt="MCP Explained_ How AI Agents Connect to Tools _ Client, Server   Architecture 8-46 screenshot" src="https://github.com/user-attachments/assets/4d928483-8fc8-4960-a9c0-40c0d3cb0e80" />
 
 ---
 
@@ -75,6 +83,7 @@ MCP architecture primarily consists of two main components:
 * **Custom MCP Servers:** Built custom by developers (e.g., wrapping a private company database) to keep internal data secure and private.
 
 ---
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/7e7593f7-f8ae-4bf4-be5a-405290647c43" />
 
 ## 6. MCP Transport Protocols
 
