@@ -1,0 +1,37 @@
+langgraph
+langchain
+
+python-dotenv
+langchain-groq 
+langchain_tavily
+openai
+# jupyter notebook
+ipykernel
+
+
+
+# langchain specific
+
+
+langchain-text-splitters
+langchain-community
+langchain-openai  
+langchain-google-genai
+# agentic flows
+# observe
+langsmith
+langgraph-cli[inmem]
+
+
+# vec db
+faiss-cpu
+# ui
+streamlit
+
+
+
+
+
+
+
+
