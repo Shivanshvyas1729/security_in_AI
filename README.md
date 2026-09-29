@@ -106,3 +106,15 @@ How messages travel between the MCP Client and MCP Server depends on where the s
 
 You don't necessarily have to be a developer building an app from scratch to use MCP. Ready-made desktop applications (such as **Claude Desktop**) also contain built-in MCP clients that allow you to plug in local or remote MCP servers (like a File System MCP Server) directly out of the box.
 </details>
+
+
+
+
+
+
+
+
+-  langSmith
+  < https://github.com/Shivanshvyas1729/Langsmith-Tracing >
+- pydentic logfire
+  < https://github.com/Shivanshvyas1729/Pydantic-Logfire >
