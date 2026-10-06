@@ -118,3 +118,6 @@ You don't necessarily have to be a developer building an app from scratch to use
   < https://github.com/Shivanshvyas1729/Langsmith-Tracing >
 - pydentic logfire
   < https://github.com/Shivanshvyas1729/Pydantic-Logfire >
+
+  - RAAGAS
+  https://github.com/divesh-sse/RAGAS
